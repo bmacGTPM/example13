@@ -1,0 +1,17 @@
+{
+  "hash": "63cbd09f4328f96bdb2cb0d3c31ce4a4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"example13\"\n---\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\nA plot:\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point() +\n  theme_minimal()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
